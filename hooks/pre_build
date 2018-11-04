@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "=> Register QEMU in build agent"
+docker run --rm --privileged multiarch/qemu-user-static:register --reset
